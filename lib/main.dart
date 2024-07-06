@@ -12,7 +12,34 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      debugShowCheckedModeBanner: false, // Desativando o banner de debug
+      debugShowCheckedModeBanner: false, 
+      theme: ThemeData(
+        primarySwatch: Colors.green,
+        scaffoldBackgroundColor: Colors.green[50],
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Color.fromARGB(255, 96, 182, 101),
+        ),
+        elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ElevatedButton.styleFrom(
+            backgroundColor: const Color.fromARGB(255, 104, 189, 108),
+            foregroundColor: Colors.black,
+          ),
+        ),
+        textTheme: const TextTheme(
+          bodyLarge: TextStyle(color: Colors.black), 
+          bodyMedium: TextStyle(color: Colors.black),
+        ),
+        textButtonTheme: TextButtonThemeData(
+          style: TextButton.styleFrom(
+            foregroundColor: Colors.black,
+          ),
+        ),
+        outlinedButtonTheme: OutlinedButtonThemeData(
+          style: OutlinedButton.styleFrom(
+            foregroundColor: Colors.black,
+          ),
+        ),
+      ),
       initialRoute: '/',
       routes: AppRoutes.routes,
     );
