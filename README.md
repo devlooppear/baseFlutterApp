@@ -14,24 +14,27 @@ Welcome to the **Hello World Flutter** project! 🎉 This is a base project desi
 
 ## Demo Photos
 
-  <div class="container-images" style="padding: 20px;">
-    <ul style="display: flex; list-style: none; gap: 1em; align-items: center; justify-content: center; align-self: center;">
+<html>
+  <div class="container-images" style="padding: 20px !important;">
+    <ul style="display: flex !important; list-style: none !important; gap: 1em !important; align-items: center !important; justify-content: center !important; align-self: center !important;">
       <li>
         <img
           src="./lib/assets/hello-world-flutter-1.png"
           alt="hello-world-flutter-1"
-          style="max-width: 150px; border-radius: 5px; border: 3px solid rgb(72, 72, 80);"
+          style="max-width: 150px !important; border-radius: 5px !important; border: 3px solid rgb(72, 72, 80) !important;"
         />
       </li>
       <li>
         <img
           src="./lib/assets/hello-world-footer-2.png"
           alt="hello-world-footer-2.png"
-          style="max-width: 150px; border-radius: 5px; border: 3px solid rgb(72, 72, 80);"
+          style="max-width: 150px !important; border-radius: 5px !important; border: 3px solid rgb(72, 72, 80) !important;"
         />
       </li>
     </ul>
   </div>
+</html>
+
 
 
 ## Getting Started
