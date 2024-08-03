@@ -12,36 +12,45 @@ Welcome to the **Hello World Flutter** project! 🎉 This is a base project desi
 - **Second Page**: Demonstrates routing and provides a back button to return to the home page.
 - **Routing**: Implemented using the `AppRoutes` class to manage navigation between pages.
 
-## Demo Video
+## Demo Photos
 
-Watch the demo video to see the app in action:
-
-<html>
-<style>
-    .container-video {
+<html >
+  <style>
+    .container-images ul {
         display: flex;
-        justify-content: center;
-        justify-items: center;
+        list-style: none;
+        gap: 1em;
         align-items: center;
+        justify-content: center;
         align-self: center;
-        gap: 20px;
+        padding: 20px;
     }
-    .container-video video {
-        margin-top: 25px;
+    .container-images li img {
+        max-width: 150px;
         border-radius: 5px;
-        border: 3px solid rgb(106, 128, 255);
-        max-width: 250px;
+        border: 3px solid rgb(72, 72, 80);
     }
-</style>
-<body>
-    <div class="container-video" autoplay>
-        <video controls autoplay>
-            <source src="./lib/assets/video-about-flutter-hello-world.webm" type="video/webm">
-            Your browser does not support the video tag.
-        </video>
+  </style>
+  <body>
+    <div class="container-images">
+      <ul>
+        <li>
+          <img
+            src="./lib/assets/hello-world-flutter-1.png"
+            alt="hello-world-flutter-1"
+          />
+        </li>
+        <li>
+          <img
+            src="./lib/assets/hello-world-footer-2.png"
+            alt="hello-world-footer-2.png"
+          />
+        </li>
+      </ul>
     </div>
-</body>
+  </body>
 </html>
+
 
 ## Getting Started
 
